@@ -34,6 +34,16 @@ export default function Detail() {
         <dd>{item.teknologi}</dd>
         <dt>Tahun</dt>
         <dd>{item.tahun}</dd>
+        <dt>Tautan</dt>
+        <dd>
+        {item.tautan ? (
+          <a href={item.tautan} target="_blank" rel="noreferrer">
+          {item.tautan}
+          </a>
+        ) : (
+         '-'
+        )}
+        </dd>
       </dl>
       <div className="aksi">
         <button type="button" onClick={konfirmasiHapus}>
