@@ -1,5 +1,5 @@
-```markdown
-# Nama Aplikasi
+## README
+# Portofolio Proyek
 
 Nama: DAFFA MUHAMAD KHADAFI
 NIM: 124140179
@@ -11,7 +11,11 @@ Deployment: https://padpad-11.github.io/uts-paw/
 
 ## Fitur
 
-- ...
+-Daftar proyek, pencarian, dan filter kategori
+-Detail proyek + hapus
+-Tambah proyek dengan validasi
+-Statistik per kategori (tabell)
+-Data dari fetch, disimpan di localStorage
 
 ## Menjalankan secara lokal
 
@@ -21,5 +25,7 @@ npm run dev
 
 ## Konsep React yang dipakai
 
-- ...
-```
+-React Router untuk pindah halaman
+-Context API untuk berbagi data antar halaman
+-Custom hook useKoleksi dan useLocalStorage
+-Di-deploy ke GitHub Pages
