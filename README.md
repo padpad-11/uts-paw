@@ -1,4 +1,5 @@
 ## README
+```markdown
 # Portofolio Proyek
 
 Nama: DAFFA MUHAMAD KHADAFI
@@ -29,3 +30,4 @@ npm run dev
 -Context API untuk berbagi data antar halaman
 -Custom hook useKoleksi dan useLocalStorage
 -Di-deploy ke GitHub Pages
+```
